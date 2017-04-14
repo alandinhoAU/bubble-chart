@@ -38,8 +38,6 @@ Hint: dimensions should not contain null values
 1. Extension can handle a finite number of bubbles -> Not suitable for every usecase
 2. Measure Legend issue when using Qliksense Desktop
 
-![Dependency Wheel aggregated in Qlik Sense](Aggregated.png)
-
 ## Author
 
 **Patric Amatulli**
