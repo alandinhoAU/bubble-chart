@@ -2,7 +2,7 @@
 Qlik Sense Bubble Chart Extension
 ======================================
 
-This extension visualizes grouping data capability between two dimensions using interactive bubbles. For the grouping of the bubbles the d3 and d3plus visiualization library is used. Every group of bubbles contains a number of limited bubbles to have the grouping effect, represented as an adjacency matrix. Currently a depth of 1 is supported. The size of each bubbles is influenced by a specified measure. All aggregation and rendering is done client-side in JavaScript. Built with Alexander Simoes <a href="https://github.com/alexandersimoes/d3plus">d3plus.js</a> visualization library, published with the MIT open-source license.
+This extension visualizes grouping data capability between two dimensions using interactive bubbles. This extension could be seen as an alternative to the treemap standard visualization. For the grouping of the bubbles the d3 and d3plus visiualization library is used. Every group of bubbles contains a number of limited bubbles to have the grouping effect, represented as an adjacency matrix. Currently a depth of 1 is supported. The size of each bubbles is influenced by a specified measure. All aggregation and rendering is done client-side in JavaScript. Built with Alexander Simoes <a href="https://github.com/alexandersimoes/d3plus">d3plus.js</a> visualization library, published with the MIT open-source license.
 
 ![alt tag](https://github.com/pamaxeed/bubble-chart/blob/master/BubbleChart.gif?raw=true)
 
@@ -37,7 +37,7 @@ Hint: dimensions should not contain null values
 
 ### Known Issue:
 
-1. Extension can handle a finite number of bubbles -> Not suitable for every usecase
+1. Extension can handle a limited finite number of bubbles -> Not suitable for every usecase
 2. Measure Legend issue when using Qliksense Desktop
 
 ## Author
