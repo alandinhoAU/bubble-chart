@@ -6,6 +6,8 @@ This extension visualizes grouping between two dimensions using interactive bubb
 
 ![alt tag](https://github.com/pamaxeed/bubble-chart/blob/master/BubbleChart.gif?raw=true)
 
+![alt tag](https://github.com/pamaxeed/bubble-chart/blob/master/BubbleChart_Settings.gif?raw=true)
+
 ### Tested on
 1. Qliksense Desktop version 3.2 -> http://localhost:4848/hub
 
