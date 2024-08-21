@@ -157,7 +157,17 @@ function(qlik, qv, $, config,  style) {
             }
           })        
         .draw();
+// Delay the label transformation to ensure the chart is fully rendered
+// @Author of this hack chatgpt
+      setTimeout(function() {
+        d3.selectAll(".d3plus_rect .d3plus_label").each(function(d) {
+          if (d.shape=="circle") {
+              d3.select(this)[0][0].children[0].textContent = d3.select(this)[0][0].children[0].textContent.toUpperCase()
+            }
+        });
+      }, 500);
 
+      
       //PAM: Check if Color Settings are set in the General Settings -> if yes then use this setting
       if(visualization.properties.color > 0){
          d3visualization.color(visualization.properties.color==1
